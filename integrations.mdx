@@ -3,221 +3,223 @@ title: "Integrations"
 description: "Kaizntree integrates with your most important tools—sales channels, accounting systems, warehouse management systems, and shipping carriers—to centralize operations and reduce manual work."
 ---
 
+## Sales Channels
+
 <AccordionGroup>
-  <Accordion title="Sales Channels">
+  <Accordion title="Shopify">
+    **What does the Shopify integration do?**
+
+    Kaizntree acts as a **two-way data bridge** with Shopify. It automatically pulls in all your essential sales and product data while pushing key updates back to Shopify, eliminating the need for manual entry.
+
     <AccordionGroup>
-      <Accordion title="Shopify">
-        **What does the Shopify integration do?**
-
-        Kaizntree acts as a **two-way data bridge** with Shopify. It automatically pulls in all your essential sales and product data while pushing key updates back to Shopify, eliminating the need for manual entry.
-
-        <AccordionGroup>
-          <Accordion title="Integration Documentation">
-            **Overview**
-
-            Kaizntree acts as a two-way data bridge with Shopify, handling both data extraction and (pull) and data submission (push). It simplifies your life and reduces to 0 manual data entry as all essential info is passed along in one way or the other. Some info is not passed from Kaizntree to Shopify to maintain your data privacy (such as costs).
-
-            **Data Pulling**
-
-            Kaizntree is configured to automatically retrieve key data from Shopify. This includes:
-
-            - Sales Orders:
-              - Item sold
-                - Name
-                - Quantity
-                - Price
-                - Discounts
-              - Total Discount
-              - Customer
-              - Date of Creation
-              - Date of Shipping
-              - Shipping Address
-            - At the moment of integration:
-              - At the moment of integration, Kaizntree also pulls in additional data to enable an even faster setup (no manual data input required):
-                - Items
-                  - All info
-                - Stock (optional)
-                  - All info
-                - Item Statuses
-                  - You can choose what status(es) to import (Active / Archived / Draft)
-          </Accordion>
-          <Accordion title="How to Integrate">
-            Our Shopify integration process was developed to be quick and easy. Simply follow these steps:
-
-            1. Go to your Integrations Tab
-            2. Input your .myshopify link. \!\! Please make sure to only write what comes before the “.myshopify”.
-            3. Click on “Integrate to Shopify”
-
-               ![Captured’écran2025 05 12à11 21 52AM(1) Pn](/images/Captured’écran2025-05-12à11.21.52AM\(1\).png)
-            4. Unless your current stock numbers on Shopify are correct, make sure you do not import stock counts (as shown in the photo).
-
-               ![Capture d’écran 2025-05-12 à 11.22.01 AM (1).png](/images/Captured’écran2025-05-12à11.22.01AM\(1\).png)
-            5. Click on “Submit”
-            6. Follow Shopify’s steps
-          </Accordion>
-        </AccordionGroup>
-      </Accordion>
-      <Accordion title="Amazon">
-        **What does the Amazon integration do?**
-
-        Kaizntree pulls **sales order data** directly from Amazon into your account, so you can track sales, manage stock, and fulfill orders—all in one place.
-
-        - **Pulled from Amazon**:
-          - Items sold (SKU, name, quantity, price)
-          - Discounts, customer information, order/shipping dates, shipping address
-          - Stock levels
-        - Inventory can also be managed in Kaizntree based on Amazon sales.
-        - The setup is fast and fully guided—just follow the steps in the integration flow to get connected.
-      </Accordion>
-      <Accordion title="Etsy">
-        **What does the Etsy integration do?**
-
-        Kaizntree acts as a **two-way data bridge** with Etsy. It automatically pulls in all your essential sales and product data while pushing key updates back to Etsy, eliminating the need for manual entry.
-
-        - **Pulled from Etsy**:
-          - Sales orders (items sold, quantity, price, discounts, customer, order/shipping dates, shipping address)
-          - At time of integration: all item data, optional stock data, item statuses (Active / Archived / Draft)
-        - **Pushed to Etsy**:
-          - Inventory levels, product updates (excluding cost data for privacy reasons), sales order updates.
-
-        The setup is fast and fully guided—just follow the steps in the integration flow to get connected.
-      </Accordion>
-      <Accordion title="WooCommerce">
-        **What does the WooCommerce integration do?**
-
-        Kaizntree acts as a **two-way data bridge** with WooCommerce. It automatically pulls in all your essential sales and product data while pushing key updates back to WooCommerce, eliminating the need for manual entry.
-
-        - **Pulled from WooCommerce**:
-          - Sales orders (items sold, quantity, price, discounts, customer, order/shipping dates, shipping address, all statuses)
-          - At time of integration: all item data, optional stock data, item statuses (Active / Archived / Draft)
-        - **Pushed to WooCommerce**:
-          - Inventory levels, product updates (excluding cost data for privacy reasons), sales order updates/statuses.
-
-        The setup is fast and fully guided—just follow the steps in the integration flow to get connected.
-      </Accordion>
-    </AccordionGroup>
-  </Accordion>
-  <Accordion title="Accounting">
-    <AccordionGroup>
-      <Accordion title="QuickBooks">
+      <Accordion title="Integration Documentation">
         **Overview**
 
-        Our system acts as a two-way data bridge with QuickBooks Online, handling both data extraction (pull) and data submission (push). It simplifies the process of keeping critical business information synchronized, allowing you to focus on your core operations without worrying about manual data updates.
+        Kaizntree acts as a two-way data bridge with Shopify, handling both data extraction and (pull) and data submission (push). It simplifies your life and reduces to 0 manual data entry as all essential info is passed along in one way or the other. Some info is not passed from Kaizntree to Shopify to maintain your data privacy (such as costs).
 
         **Data Pulling**
 
-        The system is configured to automatically retrieve key data from QuickBooks Online. This includes:
+        Kaizntree is configured to automatically retrieve key data from Shopify. This includes:
 
-        - Vendors: The system pulls vendor information, ensuring that your supplier records on Kaizntree are always current.
-        - ⁠ ⁠Customers: Customer data like Name, Address, Phone No, Email is imported into the customer table on Kaizntree.
-        - ⁠ ⁠Products: Products are imported, including information like SKU, Name and Cost about each item.
-        - ⁠ ⁠Purchase Orders (Optional): If required, the system can also pull purchase orders to give you insights into your procurement activities.
-
-        **Data Pushing**
-        To ensure that your QuickBooks Online records reflect the latest business activities, our system supports data submission (push) for the following:
-
-        - Sales Receipts: Sales receipts can be pushed to QuickBooks Online via the Sales Dashboard, recording sales transactions.
-        - ⁠Purchase Orders: The system can push purchase orders, to QuickBooks Online from the Purchase Order Dashboard.
+        - Sales Orders:
+          - Item sold
+            - Name
+            - Quantity
+            - Price
+            - Discounts
+          - Total Discount
+          - Customer
+          - Date of Creation
+          - Date of Shipping
+          - Shipping Address
+        - At the moment of integration:
+          - At the moment of integration, Kaizntree also pulls in additional data to enable an even faster setup (no manual data input required):
+            - Items
+              - All info
+            - Stock (optional)
+              - All info
+            - Item Statuses
+              - You can choose what status(es) to import (Active / Archived / Draft)
       </Accordion>
-      <Accordion title="Xero">
-        **Overview**
+      <Accordion title="How to Integrate">
+        Our Shopify integration process was developed to be quick and easy. Simply follow these steps:
 
-        Our system acts as a two-way data bridge with Xero, handling both data extraction (pull) and data submission (push). It simplifies the process of keeping critical business information synchronized, allowing you to focus on your core operations without worrying about manual data updates.
+        1. Go to your Integrations Tab
+        2. Input your .myshopify link. \!\! Please make sure to only write what comes before the “.myshopify”.
+        3. Click on “Integrate to Shopify”
 
-        **Data Pulling**
+           ![Captured’écran2025 05 12à11 21 52AM(1) Pn](/images/Captured’écran2025-05-12à11.21.52AM\(1\).png)
+        4. Unless your current stock numbers on Shopify are correct, make sure you do not import stock counts (as shown in the photo).
 
-        The system is configured to automatically retrieve key data from Xero. This includes:
-
-        - Vendors: The system pulls vendor information, ensuring that your supplier records on Kaizntree are always current.
-        - ⁠ ⁠Customers: Customer data like Name, Address, Phone No, Email is imported into the customer table on Kaizntree.
-        - ⁠ ⁠Products: Products are imported, including information like SKU, Name and Cost about each item.
-        - ⁠ ⁠Purchase Orders (Optional): If required, the system can also pull purchase orders to give you insights into your procurement activities.
-
-        **Data Pushing**
-
-        To ensure that your Xero records reflect the latest business activities, our system supports data submission (push) for the following:
-
-        - Sales Receipts: Sales receipts can be pushed to Xero via the Sales Dashboard, recording sales transactions.
-        - ⁠Purchase Orders: The system can push purchase orders, to Xero from the Purchase Order Dashboard.
-      </Accordion>
-    </AccordionGroup>
-  </Accordion>
-  <Accordion title="Warehouse Management Systems">
-    <AccordionGroup>
-      <Accordion title="Extensiv">
-        **What does the Extensiv integration do?**
-
-        Kaizntree connects to **Extensiv** (formerly known as 3PL Central) to help you manage warehouse operations with real-time data sync.
-
-        - Syncs **inventory levels, batch information, and fulfillment status** between your warehouse and Kaizntree
-        - Keeps your system up to date as stock moves, orders are fulfilled, or items are received
-
-        This integration ensures your stock levels and fulfillment operations stay accurate across platforms.
-      </Accordion>
-      <Accordion title="InfoPlus">
-        **What does the InfoPlus integration do?**
-
-        Kaizntree integrates with **InfoPlus** to give you visibility into warehouse activity and inventory accuracy.
-
-        - Real-time sync of **stock, batches, and fulfillment status**
-        - Reduces misalignment between physical inventory and digital records
-        - Helps manage multi-location operations or 3PLs with ease
-
-        Setup is quick and handled in collaboration with our team.
+           ![Capture d’écran 2025-05-12 à 11.22.01 AM (1).png](/images/Captured’écran2025-05-12à11.22.01AM\(1\).png)
+        5. Click on “Submit”
+        6. Follow Shopify’s steps
       </Accordion>
     </AccordionGroup>
   </Accordion>
-  <Accordion title="Wholesale & B2B">
-    <AccordionGroup>
-      <Accordion title="SPS Commerce">
-        **What does the SPS Commerce integration do?**
+  <Accordion title="Amazon">
+    **What does the Amazon integration do?**
 
-        Kaizntree integrates with **SPS Commerce**, enabling **EDI (Electronic Data Interchange)** for seamless communication with large retail partners.
+    Kaizntree pulls **sales order data** directly from Amazon into your account, so you can track sales, manage stock, and fulfill orders—all in one place.
 
-        - Receive purchase orders from big box retailers (e.g., Target, Walmart, Costco, etc…)
-        - Auto-generate sales orders in Kaizntree based on incoming EDI documents
-        - Push fulfillment confirmations and shipping updates back to retailers through SPS
-        - Keep inventory and order flow fully compliant with retail partner requirements
-
-        Whether you're managing one EDI connection or many, Kaizntree ensures the data flows without manual effort or risk of errors.
-      </Accordion>
-      <Accordion title="Mable">
-        Coming Soon.
-      </Accordion>
-      <Accordion title="Kaizntree AI Emails - Eliminate 100% Manual data entries!">
-        Kaizntree gives you a unique **@kaizntree.com email address** to streamline **B2B and wholesale order intake**, even from outdated systems.
-
-        Here’s how it works:
-
-        1. **You or your customers forward invoices, PDFs, or email orders** to your dedicated Kaizntree inbox (e.g., `brandname@kaizntree.com`).
-        2. Our internal AI reads the content—SKU, quantities, pricing, customer details—and interprets it like a human would.
-        3. A **draft sales order** is automatically created in your account, ready for your approval or immediate processing.
-
-        ✅ No manual order entry
-
-        ✅ Compatible with any system your B2B clients use
-
-        ✅ Works with emailed invoices, PDFs, Excel files, and plain-text emails
-
-        This feature allows you to accept wholesale orders from anywhere—regardless of how sophisticated (or not) your customer’s system is.
-      </Accordion>
-    </AccordionGroup>
+    - **Pulled from Amazon**:
+      - Items sold (SKU, name, quantity, price)
+      - Discounts, customer information, order/shipping dates, shipping address
+      - Stock levels
+    - Inventory can also be managed in Kaizntree based on Amazon sales.
+    - The setup is fast and fully guided—just follow the steps in the integration flow to get connected.
   </Accordion>
-  <Accordion title="Shipping & Logistics">
-    <AccordionGroup>
-      <Accordion title="UPS">
-        **What does the UPS integration do?**
+  <Accordion title="Etsy">
+    **What does the Etsy integration do?**
 
-        Kaizntree integrates with **UPS** to simplify your shipping workflow.
+    Kaizntree acts as a **two-way data bridge** with Etsy. It automatically pulls in all your essential sales and product data while pushing key updates back to Etsy, eliminating the need for manual entry.
 
-        - Track shipments inside Kaizntree
-        - Track Sales Orders:
-          - Statuses
-          - Weight & Size
-          - Shipping Label Price
-          - Shipping Fees
-          - Addresses
-      </Accordion>
-    </AccordionGroup>
+    - **Pulled from Etsy**:
+      - Sales orders (items sold, quantity, price, discounts, customer, order/shipping dates, shipping address)
+      - At time of integration: all item data, optional stock data, item statuses (Active / Archived / Draft)
+    - **Pushed to Etsy**:
+      - Inventory levels, product updates (excluding cost data for privacy reasons), sales order updates.
+
+    The setup is fast and fully guided—just follow the steps in the integration flow to get connected.
+  </Accordion>
+  <Accordion title="WooCommerce">
+    **What does the WooCommerce integration do?**
+
+    Kaizntree acts as a **two-way data bridge** with WooCommerce. It automatically pulls in all your essential sales and product data while pushing key updates back to WooCommerce, eliminating the need for manual entry.
+
+    - **Pulled from WooCommerce**:
+      - Sales orders (items sold, quantity, price, discounts, customer, order/shipping dates, shipping address, all statuses)
+      - At time of integration: all item data, optional stock data, item statuses (Active / Archived / Draft)
+    - **Pushed to WooCommerce**:
+      - Inventory levels, product updates (excluding cost data for privacy reasons), sales order updates/statuses.
+
+    The setup is fast and fully guided—just follow the steps in the integration flow to get connected.
+  </Accordion>
+</AccordionGroup>
+
+## Accounting
+
+<AccordionGroup>
+  <Accordion title="QuickBooks">
+    **Overview**
+
+    Our system acts as a two-way data bridge with QuickBooks Online, handling both data extraction (pull) and data submission (push). It simplifies the process of keeping critical business information synchronized, allowing you to focus on your core operations without worrying about manual data updates.
+
+    **Data Pulling**
+
+    The system is configured to automatically retrieve key data from QuickBooks Online. This includes:
+
+    - Vendors: The system pulls vendor information, ensuring that your supplier records on Kaizntree are always current.
+    - ⁠ ⁠Customers: Customer data like Name, Address, Phone No, Email is imported into the customer table on Kaizntree.
+    - ⁠ ⁠Products: Products are imported, including information like SKU, Name and Cost about each item.
+    - ⁠ ⁠Purchase Orders (Optional): If required, the system can also pull purchase orders to give you insights into your procurement activities.
+
+    **Data Pushing**
+    To ensure that your QuickBooks Online records reflect the latest business activities, our system supports data submission (push) for the following:
+
+    - Sales Receipts: Sales receipts can be pushed to QuickBooks Online via the Sales Dashboard, recording sales transactions.
+    - ⁠Purchase Orders: The system can push purchase orders, to QuickBooks Online from the Purchase Order Dashboard.
+  </Accordion>
+  <Accordion title="Xero">
+    **Overview**
+
+    Our system acts as a two-way data bridge with Xero, handling both data extraction (pull) and data submission (push). It simplifies the process of keeping critical business information synchronized, allowing you to focus on your core operations without worrying about manual data updates.
+
+    **Data Pulling**
+
+    The system is configured to automatically retrieve key data from Xero. This includes:
+
+    - Vendors: The system pulls vendor information, ensuring that your supplier records on Kaizntree are always current.
+    - ⁠ ⁠Customers: Customer data like Name, Address, Phone No, Email is imported into the customer table on Kaizntree.
+    - ⁠ ⁠Products: Products are imported, including information like SKU, Name and Cost about each item.
+    - ⁠ ⁠Purchase Orders (Optional): If required, the system can also pull purchase orders to give you insights into your procurement activities.
+
+    **Data Pushing**
+
+    To ensure that your Xero records reflect the latest business activities, our system supports data submission (push) for the following:
+
+    - Sales Receipts: Sales receipts can be pushed to Xero via the Sales Dashboard, recording sales transactions.
+    - ⁠Purchase Orders: The system can push purchase orders, to Xero from the Purchase Order Dashboard.
+  </Accordion>
+</AccordionGroup>
+
+## Warehouse Management Systems
+
+<AccordionGroup>
+  <Accordion title="Extensiv">
+    **What does the Extensiv integration do?**
+
+    Kaizntree connects to **Extensiv** (formerly known as 3PL Central) to help you manage warehouse operations with real-time data sync.
+
+    - Syncs **inventory levels, batch information, and fulfillment status** between your warehouse and Kaizntree
+    - Keeps your system up to date as stock moves, orders are fulfilled, or items are received
+
+    This integration ensures your stock levels and fulfillment operations stay accurate across platforms.
+  </Accordion>
+  <Accordion title="InfoPlus">
+    **What does the InfoPlus integration do?**
+
+    Kaizntree integrates with **InfoPlus** to give you visibility into warehouse activity and inventory accuracy.
+
+    - Real-time sync of **stock, batches, and fulfillment status**
+    - Reduces misalignment between physical inventory and digital records
+    - Helps manage multi-location operations or 3PLs with ease
+
+    Setup is quick and handled in collaboration with our team.
+  </Accordion>
+</AccordionGroup>
+
+## Wholesale & B2B
+
+<AccordionGroup>
+  <Accordion title="SPS Commerce">
+    **What does the SPS Commerce integration do?**
+
+    Kaizntree integrates with **SPS Commerce**, enabling **EDI (Electronic Data Interchange)** for seamless communication with large retail partners.
+
+    - Receive purchase orders from big box retailers (e.g., Target, Walmart, Costco, etc…)
+    - Auto-generate sales orders in Kaizntree based on incoming EDI documents
+    - Push fulfillment confirmations and shipping updates back to retailers through SPS
+    - Keep inventory and order flow fully compliant with retail partner requirements
+
+    Whether you're managing one EDI connection or many, Kaizntree ensures the data flows without manual effort or risk of errors.
+  </Accordion>
+  <Accordion title="Mable">
+    Coming Soon.
+  </Accordion>
+  <Accordion title="Kaizntree AI Emails - Eliminate 100% Manual data entries!">
+    Kaizntree gives you a unique **@kaizntree.com email address** to streamline **B2B and wholesale order intake**, even from outdated systems.
+
+    Here’s how it works:
+
+    1. **You or your customers forward invoices, PDFs, or email orders** to your dedicated Kaizntree inbox (e.g., `brandname@kaizntree.com`).
+    2. Our internal AI reads the content—SKU, quantities, pricing, customer details—and interprets it like a human would.
+    3. A **draft sales order** is automatically created in your account, ready for your approval or immediate processing.
+
+    ✅ No manual order entry
+
+    ✅ Compatible with any system your B2B clients use
+
+    ✅ Works with emailed invoices, PDFs, Excel files, and plain-text emails
+
+    This feature allows you to accept wholesale orders from anywhere—regardless of how sophisticated (or not) your customer’s system is.
+  </Accordion>
+</AccordionGroup>
+
+## Shipping & Logistics
+
+<AccordionGroup>
+  <Accordion title="UPS">
+    **What does the UPS integration do?**
+
+    Kaizntree integrates with **UPS** to simplify your shipping workflow.
+
+    - Track shipments inside Kaizntree
+    - Track Sales Orders:
+      - Statuses
+      - Weight & Size
+      - Shipping Label Price
+      - Shipping Fees
+      - Addresses
   </Accordion>
 </AccordionGroup>
