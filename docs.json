@@ -27,7 +27,7 @@
   },
   "navigation": {
     "pages": [
-      "introduction",
+      "home",
       "getting-started",
       "integrations",
       "certifications",
@@ -41,11 +41,6 @@
           "anchor": "About Us",
           "href": "https://kaizntree.com/about-us",
           "icon": "users"
-        },
-        {
-          "anchor": "Careers",
-          "href": "https://kaizntree.notion.site/kaizntree-careers",
-          "icon": "graduation-cap"
         },
         {
           "anchor": "Blog",
