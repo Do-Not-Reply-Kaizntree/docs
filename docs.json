@@ -28,10 +28,7 @@
   "navigation": {
     "pages": [
       "introduction",
-      {
-        "group": "Getting Started",
-        "pages": ["uploading-data", "recording-a-builder-order"]
-      },
+      "getting-started",
       "extractable-data",
       "reports-and-insights"
     ],
