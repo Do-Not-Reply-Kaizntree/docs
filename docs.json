@@ -32,7 +32,8 @@
       "integrations",
       "certifications",
       "extractable-data",
-      "reports-and-insights"
+      "reports-and-insights",
+      "faqs"
     ],
 
     "global": {
