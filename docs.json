@@ -29,6 +29,8 @@
     "pages": [
       "introduction",
       "getting-started",
+      "integrations",
+      "certifications",
       "extractable-data",
       "reports-and-insights"
     ],
